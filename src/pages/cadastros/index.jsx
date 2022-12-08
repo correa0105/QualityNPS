@@ -1,0 +1,204 @@
+import { Button } from "../../components/Button";
+import { Header } from "../../components/Header";
+import { AiFillEdit } from "react-icons/ai";
+
+import { Container, Row, Titulo, TituloPagina, CadastrosContainer } from "./styles"
+
+const Cadastros = () => {
+    return (<>
+        <Header autenticado={true} />
+        <Container>
+            <Titulo>
+                <TituloPagina>Cadastros</TituloPagina>
+            </Titulo>
+            <Row>
+                <div>
+                    <input type="text" />
+                    <Button title="Buscar" />
+                </div>
+                <div>
+                    <Button title="Cadastrar Usuarios" />
+                </div>
+            </Row>
+            <CadastrosContainer>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Tipo</th>
+                    <th>Situação</th>
+                    <th>Editar</th>
+                </tr>
+                <tr>
+                    <td>Lucas</td>
+                    <td>correa.l@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Igor</td>
+                    <td>igor.andrey@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Igor</td>
+                    <td>igor.andrey@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Jonatan Silva</td>
+                    <td>jon.silva@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Gisele</td>
+                    <td>giselemkt@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Igor</td>
+                    <td>igor.andrey@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Jonatan Silva</td>
+                    <td>jon.silva@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Andressa</td>
+                    <td>andy0101@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Michele</td>
+                    <td>mica1902@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Vitor</td>
+                    <td>vitordev@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Jonatan Silva</td>
+                    <td>jon.silva@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>carlafigueiredo@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Igor</td>
+                    <td>igor.andrey@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Jonatan Silva</td>
+                    <td>jon.silva@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Gisele</td>
+                    <td>giselemkt@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Igor</td>
+                    <td>igor.andrey@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Jonatan Silva</td>
+                    <td>jon.silva@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Andressa</td>
+                    <td>andy0101@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Michele</td>
+                    <td>mica1902@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Inativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Vitor</td>
+                    <td>vitordev@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>carlafigueiredo@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Gisele</td>
+                    <td>giselemkt@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Carla</td>
+                    <td>carlafigueiredo@icloud.com</td>
+                    <td>Professor</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+                <tr>
+                    <td>Gisele</td>
+                    <td>giselemkt@icloud.com</td>
+                    <td>Administrador</td>
+                    <td>Ativo</td>
+                    <td><AiFillEdit/></td>
+                </tr>
+            </CadastrosContainer>
+        </Container>
+    </>)
+}
+
+export { Cadastros }
